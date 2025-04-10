@@ -1,4 +1,4 @@
-run = "cowsay Configure me!"
+run = "cd management && mvn clean install && mvn spring-boot:run"
 entrypoint = "README.md"
 
 [nix]
